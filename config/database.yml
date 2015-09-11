@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: ENV['PG']
+  database: db/production.sqlite3
