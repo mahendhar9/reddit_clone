@@ -20,6 +20,7 @@ gem 'simple_form'
 group :development, :test do
     gem 'sqlite3'
     gem 'byebug'
+    gem 'dotenv-rails'
 
     gem 'web-console', '~> 2.0'
 
